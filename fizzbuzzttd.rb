@@ -1,29 +1,42 @@
-counter = 0
-100.times do 
-counter = counter +1
-puts counter
-end
+# counter = 0
+# 100.times do 
+# counter = counter +1
+# puts counter
+# end
 $number_a = *(1..100)
  def a_ray()
 $number_a.class
 end
 
 
-def counter1(test_number)
-	number = test_number
-	if number % 15 == 0
-			"fizzbuzz"
-		elsif number % 3 == 0
-			"fizz"
-		elsif number % 5 == 0
-			"buzz"
-	end
-end
+# def counter1()
+# 	number = test_number
+# 	if number % 15 == 0
+# 			"fizzbuzz"
+# 		elsif number % 3 == 0
+# 			"fizz"
+# 		elsif number % 5 == 0
+# 			"buzz"
+# 	end
+# end
 	def positionEvaluation(position)
 		$number_a[position]
 	end
 
-
+def change(position)
+	counter = 0
+100.times do 
+	if $number_a[counter] % 15 == 0
+		$number_a[counter] = "fizzbuzz" 
+	elsif $number_a[counter] % 5 == 0
+		$number_a[counter] = "buzz"
+	elsif $number_a[counter] % 3 == 0
+		$number_a[counter] = "fizz"
+	end
+counter = counter +1
+end
+$number_a[position]
+end
 # counter1 = 0
 # 100.times do 
 # counter1 = counter1 +1
