@@ -3,7 +3,11 @@ counter = 0
 counter = counter +1
 puts counter
 end
-number_a = *(1..100)
+$number_a = *(1..100)
+ def a_ray()
+$number_a.class
+end
+
 
 def counter1(test_number)
 	number = test_number

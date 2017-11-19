@@ -30,4 +30,8 @@ class TestfizzbuzzTTD < Minitest::Test
     	def test_assert_that_number_is_fizzbuzz
     	assert_equal("fizzbuzz", counter1(90))
     end
+
+    def test_assert_that_number_is_array
+    	assert_equal(Array, a_ray())
+    end
 end
