@@ -3,8 +3,9 @@ counter = 0
 counter = counter +1
 puts counter
 end
+number_a = *(1..100)
 
-def counter(test_number)
+def counter1(test_number)
 	number = test_number
 	if number % 15 == 0
 			"fizzbuzz"
@@ -13,6 +14,7 @@ def counter(test_number)
 		elsif number % 5 == 0
 			"buzz"
 	end
+
 end
 	
 # counter1 = 0
