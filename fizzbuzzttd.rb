@@ -22,7 +22,7 @@ end
 	def positionEvaluation(position)
 		$number_a[position]
 	end
-	
+
 
 # counter1 = 0
 # 100.times do 
