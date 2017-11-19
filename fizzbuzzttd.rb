@@ -19,11 +19,11 @@ end
 # 			"buzz"
 # 	end
 # end
-	def positionEvaluation(position)
-		$number_a[position]
-	end
+	# def positionEvaluation()
+	# 	$number_a[position]
+	# end
 
-def change(position)
+def change()
 	counter = 0
 100.times do 
 	if $number_a[counter] % 15 == 0
@@ -35,8 +35,15 @@ def change(position)
 	end
 counter = counter +1
 end
-$number_a[position]
+# $number_a[position]
 end
+
+
+change()
+puts $number_a
+
+
+
 # counter1 = 0
 # 100.times do 
 # counter1 = counter1 +1

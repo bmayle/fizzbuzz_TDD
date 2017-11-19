@@ -52,4 +52,9 @@ class TestfizzbuzzTTD < Minitest::Test
 def test_assert_for_buzz_on_pos_4
 		assert_equal("buzz", change(4))
 	end
+	def test_assert_for_76_on_pos_75
+		assert_equal(76, change(75))
+	end
+
+puts "fizzbuzz"
 end
