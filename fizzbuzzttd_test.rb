@@ -46,4 +46,8 @@ class TestfizzbuzzTTD < Minitest::Test
    def test_assert_for_fizzbuzz_on_array_pos_14
 	assert_equal("fizzbuzz", change(14))
 	end
+	def test_assert_for_fizz_on_pos_2
+		assert_equal("fizz", change(2))
+	end
+
 end
