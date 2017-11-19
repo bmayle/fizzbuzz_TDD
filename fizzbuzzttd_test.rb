@@ -34,4 +34,10 @@ class TestfizzbuzzTTD < Minitest::Test
     def test_assert_that_number_is_array
     	assert_equal(Array, a_ray())
     end
+   def test_assert_for_first_position
+   	assert_equal(1, positionEvaluation(0))
+   end
+	def test_assert_for_last_position
+   		assert_equal(100, positionEvaluation(99))
+   end
 end

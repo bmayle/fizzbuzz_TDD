@@ -18,9 +18,12 @@ def counter1(test_number)
 		elsif number % 5 == 0
 			"buzz"
 	end
-
 end
+	def positionEvaluation(position)
+		$number_a[position]
+	end
 	
+
 # counter1 = 0
 # 100.times do 
 # counter1 = counter1 +1
