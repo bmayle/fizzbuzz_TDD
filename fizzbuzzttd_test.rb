@@ -8,6 +8,10 @@ class TestfizzbuzzTTD < Minitest::Test
 
 
     def test_assert_that_number_is_fizzbuzz
-    	assert_equal("fizz", counter(3))
+    	assert_equal("fizz", counter(6))
+    end
+
+    def test_assert_that_number_is_buzz
+    	assert_equal("buzz", counter1(10))
     end
  end
