@@ -11,3 +11,10 @@ def counter1(test_number)
 		"buzz"
 	end
 end
+
+def counter2(test_number)
+	number = test_number
+	if number % 15 == 0
+		"fizzbuzz"
+	end
+end
